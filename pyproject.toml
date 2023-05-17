@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "infod"
+version = "0.1.0"
+description = ""
+authors = ["Gild-shogi"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+mypy = "^1.2.0"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+jupyterlab = "^3.6.3"
+isort = "^5.12.0"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
